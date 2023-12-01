@@ -46,10 +46,12 @@ header button {
   padding: 0.4rem 1.8rem;
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  transition: .5s ease-in-out;
 }
 
 header button:hover {
   background-color: hsl(0, 73%, 37%);
+  transform: scale(1.2);
 }
 
 .photo_gallery div {
@@ -86,10 +88,12 @@ h1 {
   font-size: 0.8rem;
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  transition: .5s ease-in-out;
 }
 
 .photo_gallery div button:hover {
-  background-color: hsl(197, 68%, 33%)
+  background-color: hsl(197, 68%, 33%);
+  transform: scale(1.2);
 }
 
 .photo_gallery_content {
