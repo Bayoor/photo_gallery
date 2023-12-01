@@ -126,12 +126,15 @@ h1 {
   border-radius: 15px;
   padding: 0.2rem 1rem;
   cursor: pointer;
+  transition: .5s ease-in-out;
 }
 
 .photo_gallery_content p:hover,
 .photo_gallery_content .btn p:nth-child(1):hover {
   background-color: hsl(195, 49%, 52%);
   color: hsl(0, 0%, 100%);
+  transform: scale(1.2);
+
 }
 
 .photo_gallery_image {
